@@ -1,9 +1,9 @@
 package ca.bytetube.list.single;
 
 import ca.bytetube.list.AbstractList;
-import ca.bytetube.list.List;
 
-public class SingleLinkedList<E> extends AbstractList<E> {
+public class CircularLinkedList<E> extends AbstractList<E> {
+
     private Node<E> first;
 
     private static class Node<E> {
@@ -15,6 +15,7 @@ public class SingleLinkedList<E> extends AbstractList<E> {
             this.next = next;
         }
     }
+
 
     private Node<E> node(int index) {
         rangeCheck(index);
@@ -35,23 +36,6 @@ public class SingleLinkedList<E> extends AbstractList<E> {
 
 
     @Override
-    public void add(int index, E element) {
-        rangeCheckForAdd(index);
-        //头部的add
-        if (index == 0) first = new Node<>(element, first);
-        else {
-            //普通位置和尾部的add
-            Node<E> preNode = node(index - 1);
-            //int i = 10;//赋值操作 --->从等号的右边向左边看
-            preNode.next = new Node<>(element, preNode.next);//指向操作--->从等号的左边向右边看
-        }
-
-
-        size++;
-    }
-
-
-    @Override
     public E get(int index) {
         return node(index).element;
     }
@@ -67,26 +51,59 @@ public class SingleLinkedList<E> extends AbstractList<E> {
         return oldElement;
     }
 
+
+    @Override
+    public void add(int index, E element) {
+        rangeCheckForAdd(index);
+        //头部的add
+        //这种写法是错误的，忽略了空链表的时插入第一个节点的情况
+        if (index == 0) {
+//            first = new Node<>(element, first);
+//            Node<E> last = node(size - 1);
+//            last.next = first;
+
+            Node<E> newFirst = new Node<>(element, first);
+
+            Node<E> last = (size == 0) ? newFirst : node(size - 1);
+
+            last.next = newFirst;
+
+            first = newFirst;
+        } else {
+            //普通位置和尾部的add
+            Node<E> preNode = node(index - 1);
+            //int i = 10;//赋值操作 --->从等号的右边向左边看
+            preNode.next = new Node<>(element, preNode.next);//指向操作--->从等号的左边向右边看
+        }
+
+
+        size++;
+    }
+
+
     @Override
     public E remove(int index) {
-        rangeCheck(index);
         //头部的remove
+        rangeCheck(index);
+
         Node<E> removed = first;
-        if (index == 0) first = first.next;
-
-
-            //普通位置和尾部的remove
+        if (index == 0) {
+            if (size == 1) first = null;
+            else {
+                first = first.next;
+                Node<E> last = node(size - 1);
+                last.next = first;
+            }
+        }
+        //普通位置和尾部的remove
         else {
             Node<E> preNode = node(index - 1);
             removed = preNode.next;
             preNode.next = removed.next;
         }
 
-
-         size--;
-
+        size--;
         return removed.element;
-
 
     }
 
@@ -114,7 +131,6 @@ public class SingleLinkedList<E> extends AbstractList<E> {
     }
 
 
-
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("size: ").append(size).append(",{");
@@ -131,22 +147,27 @@ public class SingleLinkedList<E> extends AbstractList<E> {
         return sb.toString();
     }
 
-
     public static void main(String[] args) {
+        CircularLinkedList<Integer> circularLinkedList = new CircularLinkedList<>();
+        circularLinkedList.add(0, 10);
+        circularLinkedList.add(1, 20);
+        circularLinkedList.add(2, 30);
+        circularLinkedList.add(3, 40);
+        circularLinkedList.add(4, 50);
 
-        List<Integer> list = new SingleLinkedList<>();
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        list.add(40);
-        list.add(2, 100);
-        // System.out.println(list.size());
-        list.set(2, 1000);
-        System.out.println(list.get(2));
-        System.out.println(list);
-        //System.out.println(list.remove(0));
+        System.out.println(circularLinkedList);
 
-        System.out.println(list.indexOf(1000));
-        System.out.println(list.contains(300));
+//        while (circularLinkedList.size > 0){
+//            circularLinkedList.remove(circularLinkedList.size - 1 );
+//            System.out.println(circularLinkedList);
+//        }
+
+        int size = circularLinkedList.size;
+        for (int i = 0; i < size; i++) {
+            circularLinkedList.remove(circularLinkedList.size - 1 );
+            System.out.println(circularLinkedList);
+        }
+
     }
+
 }

@@ -1,4 +1,6 @@
-package ca.bytetube.list;
+package ca.bytetube.stack.list;
+
+import ca.bytetube.list.AbstractList;
 
 public class LinkedList<E> extends AbstractList<E> {
 
