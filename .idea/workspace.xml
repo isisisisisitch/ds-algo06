@@ -2,19 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/leetcode/stack/ValidParentheses_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/list/single/CircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/stack/list/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/stack/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/stack/list/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/queue/ImplementQueueUsingStacks_232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/queue/ImplementStackUsingQueues_225.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/stack/IsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/stack/MinStack_155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_queue/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_queue/list/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_queue/list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_queue/list/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/single/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/single/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/list/doubly/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/single/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/list/single/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/complexity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_01_complexity/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/complexity/Times.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_01_complexity/Times.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/leetcode/list/DeleteNode_237.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/DeleteNode_237.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/leetcode/list/LinkedListCycle_141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/LinkedListCycle_141.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/leetcode/list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/leetcode/list/ReverseLinkedList_206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/ReverseLinkedList_206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/leetcode/stack/ValidParentheses_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/stack/ValidParentheses_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/AbstractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/doubly/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/doubly/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/single/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/single/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/single/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/single/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/list/single/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_02_list/single/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/stack/list/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_stack/list/AbstractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/stack/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_stack/list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/stack/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_stack/list/List.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/stack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_04_queue" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -49,6 +65,7 @@
       <recent name="ca.bytetube.stack" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_04_queue" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/stack" />
     </key>
   </component>
@@ -66,11 +83,11 @@
   </component>
   <component name="RunManager" selected="Application.Stack">
     <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.list.single.ArrayList" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._02_list.single.ArrayList" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.list.single.*" />
+          <option name="PATTERN" value="ca.bytetube._02_list.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.list.single.CircularLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._02_list.single.CircularLinkedList" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.list.single.*" />
+          <option name="PATTERN" value="ca.bytetube._02_list.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +109,11 @@
       </method>
     </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.list.doubly.LinkedList" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._02_list.doubly.LinkedList" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.list.doubly.*" />
+          <option name="PATTERN" value="ca.bytetube._02_list.doubly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.list.Main" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._02_list.Main" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.list.single.*" />
+          <option name="PATTERN" value="ca.bytetube._02_list.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.list.single.SingleLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._02_list.single.SingleLinkedList" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.list.single.*" />
+          <option name="PATTERN" value="ca.bytetube._02_list.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +148,11 @@
       </method>
     </configuration>
     <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube.stack.Stack" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_stack.Stack" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube.stack.*" />
+          <option name="PATTERN" value="ca.bytetube._03_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,8 +184,17 @@
       <workItem from="1644281955176" duration="7953000" />
       <workItem from="1644364783865" duration="8734000" />
       <workItem from="1644870466226" duration="12198000" />
-      <workItem from="1644971326742" duration="8120000" />
+      <workItem from="1644971326742" duration="8353000" />
+      <workItem from="1645478692750" duration="9238000" />
     </task>
+    <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
+      <created>1644982416861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644982416861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,21 +213,25 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.Added Circular LinkedList &#10;2.Added stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Added Circular LinkedList &#10;2.Added stack" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/list/single/ArrayList.java</url>
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_02_list/single/ArrayList.java</url>
           <line>148</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/list/doubly/LinkedList.java</url>
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_02_list/doubly/LinkedList.java</url>
           <line>144</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/stack/Stack.java</url>
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_03_stack/Stack.java</url>
           <line>46</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
