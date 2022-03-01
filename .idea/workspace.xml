@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/FindTargetInOrderArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/SpiralPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/ZigZagPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/ClassifyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/ClassifyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/FindFirstInsertNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/complexity/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/complexity/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/complexity/Times$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/complexity/Times.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/leetcode/list/DeleteNode_237.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/leetcode/list/LinkedListCycle_141.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/leetcode/list/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/leetcode/list/ReverseLinkedList_206.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/AbstractList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/single/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/single/SingleLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/ca/bytetube/list/single/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/stack/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/stack/IsPalindrome.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.ClassifyList">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.BubbleSort" />
       <module name="ds_algo_06" />
@@ -87,38 +70,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClassifyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.ClassifyArray" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._00_leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassifyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.list.ClassifyList" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._00_leetcode.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindTargetInOrderArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.FindTargetInOrderArrays" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.bytetube._00_leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiralPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.SpiralPrint" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_stack.Stack" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._03_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassifyList" />
+        <item itemvalue="Application.ClassifyArray" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.FindTargetInOrderArrays" />
         <item itemvalue="Application.ZigZagPrint" />
-        <item itemvalue="Application.SpiralPrint" />
-        <item itemvalue="Application.Stack" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +148,8 @@
       <workItem from="1644870466226" duration="12198000" />
       <workItem from="1644971326742" duration="8353000" />
       <workItem from="1645478692750" duration="9549000" />
-      <workItem from="1645572271865" duration="9358000" />
+      <workItem from="1645572271865" duration="9422000" />
+      <workItem from="1646094550555" duration="5259000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -181,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645500933235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added array and list interview questions">
+      <created>1645587604646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645587604646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.Added Circular LinkedList &#10;2.Added stack" />
     <MESSAGE value="1.update category&#10;2.added stack and queue interview questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.update category&#10;2.added stack and queue interview questions" />
+    <MESSAGE value="added array and list interview questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added array and list interview questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,6 +219,11 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/BubbleSort.java</url>
           <line>32</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/ClassifyList.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
