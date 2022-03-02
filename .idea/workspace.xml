@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/ClassifyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/ClassifyList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/FindFirstInsertNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/queue/SlidingWindowMaximum_239.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassifyList">
+  <component name="RunManager" selected="Application.FindFirstInsertNode">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.BubbleSort" />
       <module name="ds_algo_06" />
@@ -96,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindFirstInsertNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.list.FindFirstInsertNode" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._00_leetcode.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindTargetInOrderArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.FindTargetInOrderArrays" />
       <module name="ds_algo_06" />
@@ -109,26 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.ZigZagPrint" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFirstInsertNode" />
         <item itemvalue="Application.ClassifyList" />
         <item itemvalue="Application.ClassifyArray" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.FindTargetInOrderArrays" />
-        <item itemvalue="Application.ZigZagPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +148,8 @@
       <workItem from="1644971326742" duration="8353000" />
       <workItem from="1645478692750" duration="9549000" />
       <workItem from="1645572271865" duration="9422000" />
-      <workItem from="1646094550555" duration="5259000" />
+      <workItem from="1646094550555" duration="6007000" />
+      <workItem from="1646176724033" duration="7650000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645587604646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added array and list interview questions_02">
+      <created>1646106142531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646106142531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +202,8 @@
     <MESSAGE value="1.Added Circular LinkedList &#10;2.Added stack" />
     <MESSAGE value="1.update category&#10;2.added stack and queue interview questions" />
     <MESSAGE value="added array and list interview questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added array and list interview questions" />
+    <MESSAGE value="added array and list interview questions_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="added array and list interview questions_02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
