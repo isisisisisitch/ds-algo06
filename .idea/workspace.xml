@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/TreeTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/tree/InvertBinaryTree_226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/PersonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/file/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/printer/BinaryTreeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/printer/BinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/printer/InorderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/printer/LevelOrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/printer/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/TreeTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +43,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_04_queue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._05_binaryTree.file" />
       <recent name="ca.bytetube.stack" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_04_queue" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/stack" />
     </key>
@@ -54,20 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeTraversal">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.BubbleSort" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Person">
     <configuration name="ClassifyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.ClassifyArray" />
       <module name="ds_algo_06" />
@@ -107,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.Person" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._05_binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.TreeTraversal" />
       <module name="ds_algo_06" />
@@ -122,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.TreeTraversal" />
         <item itemvalue="Application.FindFirstInsertNode" />
         <item itemvalue="Application.ClassifyList" />
         <item itemvalue="Application.ClassifyArray" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +164,8 @@
       <workItem from="1645572271865" duration="9422000" />
       <workItem from="1646094550555" duration="6007000" />
       <workItem from="1646176724033" duration="7834000" />
-      <workItem from="1646782736681" duration="4535000" />
+      <workItem from="1646782736681" duration="4706000" />
+      <workItem from="1647292443702" duration="8769000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -186,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646192225732</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.added TreeTraversal">
+      <created>1646797888042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646797888042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +234,8 @@
     <MESSAGE value="added array and list interview questions" />
     <MESSAGE value="added array and list interview questions_02" />
     <MESSAGE value="added list and queue interview questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added list and queue interview questions" />
+    <MESSAGE value="1.added TreeTraversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added TreeTraversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
