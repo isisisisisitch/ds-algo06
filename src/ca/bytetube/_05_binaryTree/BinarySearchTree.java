@@ -76,24 +76,54 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         size++;
     }
 
-    //e1 > e2 ---> >0
-    //e1 < e2 ---> <0
-    //e1 = e2 ---> 0
-    private int compare(E e1, E e2) {
 
-        if (comparator != null)  return comparator.compare(e1,e2);
-
-        return  ((Comparable<E>)e1).compareTo(e2);
-    }
-
-    private void elementNotNullCheck(E element) {
-        if (element == null) throw  new IllegalArgumentException("element can not be null !");
-    }
 
     /**
      * remove elements
      */
-    void remove(E element) {
+   public void remove(E element) {
+        remove(node(element));
+    }
+
+
+    private void remove(Node<E> node){
+        if (node == null) return;
+        size--;
+
+        //删除degree = 2
+        if (node.hasChildren()) {
+            Node<E> s = successor(node);
+            node.element = s.element;
+            node = s;
+        }
+
+        //删除degree = 1
+        Node<E> replacement = node.left != null ? node.left : node.right;
+        //完成双亲相认
+        if (replacement != null) {
+            //更新replacement parent
+            replacement.parent = node.parent;
+            if (node.parent == null) {
+                root = replacement;
+            }
+            if (node == node.parent.left) {
+                node.parent.left = replacement;
+            }else {
+                node.parent.right = replacement;
+            }
+        }
+
+        //删除degree = 0
+        else if (node.parent == null) {
+            root = null;
+        }else {
+            if (node == node.parent.left) {
+                node.parent.left = null;
+            }else {
+                node.parent.right = null;
+            }
+        }
+
 
     }
 
@@ -101,18 +131,92 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
      * does it contain an element or not
      */
     boolean contains(E element) {
-        return false;
+        return node(element) != null;
+    }
+
+
+    //e1 > e2 ---> >0
+    //e1 < e2 ---> <0
+    //e1 = e2 ---> 0
+    private int compare(E e1, E e2) {
+        if (comparator != null)  return comparator.compare(e1,e2);
+        return  ((Comparable<E>)e1).compareTo(e2);
+    }
+
+    private void elementNotNullCheck(E element) {
+        if (element == null) throw  new IllegalArgumentException("element can not be null !");
+    }
+
+
+    private Node<E> node(E element) {
+        Node<E> node = root;
+        int cmp = 0;
+        while (node != null){
+            cmp = compare(element,node.element);
+
+            if (cmp > 0) node = node.right;
+
+            else if (cmp < 0)   node = node.left;
+            else {
+                node.element = element;
+                return node;
+            }
+        }
+
+        return null;
+
+    }
+    public Node<E> predecessor(E element){
+       return predecessor(node(element));
+    }
+
+    public Node<E> predecessor(Node<E> node){
+        if (node == null) return node;
+
+        //1.node.left != null
+        Node<E> p = node.left;
+        if (p != null) {
+            while (p.right != null){
+                p = p.right;
+            }
+
+            return p;
+        }
+        //2.node.left == null && node.parent!=null
+        while (node.parent != null && node == node.parent.left){
+            node = node.parent;
+        }
+
+        //node.left == null && node == node.parent.right
+        return node.parent;
     }
 
 
 
+    public Node<E> successor(E element){
+        return predecessor(node(element));
+    }
 
+    public Node<E> successor(Node<E> node){
+        if (node == null) return node;
 
+        //1.node.right != null
+        Node<E> p = node.right;
+        if (p != null) {
+            while (p.left != null){
+                p = p.left;
+            }
 
+            return p;
+        }
+        //2.node.right == null && node.parent!=null
+        while (node.parent != null && node == node.parent.right){
+            node = node.parent;
+        }
 
-
-
-
+        //node.right == null && node == node.parent.left
+        return node.parent;
+    }
 
 
 
@@ -154,6 +258,16 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
             this.element = element;
             this.parent = parent;
         }
+
+        @Override
+        public String toString() {
+            return element + "";
+        }
+
+        public boolean hasChildren() {
+          return  this.left != null && this.right != null;
+        }
     }
+
 
 }
