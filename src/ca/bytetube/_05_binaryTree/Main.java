@@ -8,11 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
         //BinarySearchTree<Integer> bst = new BinarySearchTree<>();
-        test();
+        test3();
     }
 
 
-    public static void test(){
+    public static void test1(){
         int[] arr = {7,4,9,2,5,8,11,1,3,12};
         BinarySearchTree<Integer> bst = new BinarySearchTree<>();
         for (int i = 0; i < arr.length; i++) {
@@ -30,4 +30,26 @@ public class Main {
         System.out.println(bst.contains(7));
 
     }
+
+    public static void test2(){
+        int[] arr = {7,4,9,2,5,8,11,1,3,12};
+        BinarySearchTree<Integer> bst = new BinarySearchTree<>();
+        for (int i = 0; i < arr.length; i++) {
+            bst.add(arr[i]);
+        }
+
+        System.out.println(bst.height());
+    }
+
+    public static void test3(){
+        int[] arr = {7,4,9,2,5,8,11,1,3};
+        BinarySearchTree<Integer> bst = new BinarySearchTree<>();
+        for (int i = 0; i < arr.length; i++) {
+            bst.add(arr[i]);
+        }
+
+        BinaryTrees.println(bst);
+    }
+
+
 }

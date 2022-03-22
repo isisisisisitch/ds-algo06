@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/tree/CheckCompletenessOfBinaryTree_958.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds_algo_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ds_algo_06.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/Main.java" afterDir="false" />
     </list>
@@ -62,13 +63,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ClassifyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.list.ClassifyList" />
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.BinaryTree" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode.list.*" />
+          <option name="PATTERN" value="ca.bytetube._05_binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.TreeTraversal" />
         <item itemvalue="Application.FindFirstInsertNode" />
-        <item itemvalue="Application.ClassifyList" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,8 @@
       <workItem from="1646176724033" duration="7834000" />
       <workItem from="1646782736681" duration="4706000" />
       <workItem from="1647292443702" duration="11619000" />
-      <workItem from="1647389110501" duration="6561000" />
+      <workItem from="1647389110501" duration="7239000" />
+      <workItem from="1647891670484" duration="7846000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -210,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647312096566</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.added predecessor and successor&#10;2.added remove">
+      <created>1647397569642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647397569642</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +246,8 @@
     <MESSAGE value="added list and queue interview questions" />
     <MESSAGE value="1.added TreeTraversal" />
     <MESSAGE value="1.added post and level Tree Traversal&#10;2.added bst add method" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added post and level Tree Traversal&#10;2.added bst add method" />
+    <MESSAGE value="1.added predecessor and successor&#10;2.added remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added predecessor and successor&#10;2.added remove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,6 +281,11 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/Main.java</url>
           <line>26</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinaryTree.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

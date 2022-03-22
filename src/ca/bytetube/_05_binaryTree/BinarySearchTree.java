@@ -1,45 +1,14 @@
 package ca.bytetube._05_binaryTree;
 
-import ca.bytetube._05_binaryTree.printer.BinaryTreeInfo;
-
 import java.util.Comparator;
 
-public class BinarySearchTree<E> implements BinaryTreeInfo {
-    private Node root;
-    private int size;
-
+public class BinarySearchTree<E> extends BinaryTree<E> {
     private Comparator<E> comparator;
 
-    public BinarySearchTree() {
-    }
+    public BinarySearchTree() { }
 
     public BinarySearchTree(Comparator<E> comparator) {
         this.comparator = comparator;
-    }
-
-    /**
-     *  number of elements
-     */
-    int size() {
-        return size;
-
-    }
-
-    /**
-     *  if it is empty or not
-     */
-
-    boolean isEmpty() {
-        return size == 0;
-    }
-
-    /**
-     * clear all elements
-     */
-
-    void clear() {
-        root = null;
-        size = 0;
     }
 
     /**
@@ -148,7 +117,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
     }
 
 
-    private Node<E> node(E element) {
+    public Node<E> node(E element) {
         Node<E> node = root;
         int cmp = 0;
         while (node != null){
@@ -166,108 +135,8 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         return null;
 
     }
-    public Node<E> predecessor(E element){
-       return predecessor(node(element));
-    }
-
-    public Node<E> predecessor(Node<E> node){
-        if (node == null) return node;
-
-        //1.node.left != null
-        Node<E> p = node.left;
-        if (p != null) {
-            while (p.right != null){
-                p = p.right;
-            }
-
-            return p;
-        }
-        //2.node.left == null && node.parent!=null
-        while (node.parent != null && node == node.parent.left){
-            node = node.parent;
-        }
-
-        //node.left == null && node == node.parent.right
-        return node.parent;
-    }
 
 
-
-    public Node<E> successor(E element){
-        return predecessor(node(element));
-    }
-
-    public Node<E> successor(Node<E> node){
-        if (node == null) return node;
-
-        //1.node.right != null
-        Node<E> p = node.right;
-        if (p != null) {
-            while (p.left != null){
-                p = p.left;
-            }
-
-            return p;
-        }
-        //2.node.right == null && node.parent!=null
-        while (node.parent != null && node == node.parent.right){
-            node = node.parent;
-        }
-
-        //node.right == null && node == node.parent.left
-        return node.parent;
-    }
-
-
-
-
-
-    @Override
-    public Object root() {
-        return root;
-    }
-
-    @Override
-    public Object left(Object node) {
-        return ((Node<E>) node).left;
-    }
-
-    @Override
-    public Object right(Object node) {
-        return ((Node<E>) node).right;
-    }
-
-    @Override
-    public Object string(Object node) {
-        BinarySearchTree.Node<E> myNode = ((BinarySearchTree.Node<E>) node);
-        String parentString = "null";
-        if (myNode.parent != null) {
-            parentString = myNode.parent.toString();
-        }
-
-        return myNode.element + "_p(" + parentString + ")";
-    }
-
-    private static class Node<E> {
-        E element;
-        Node<E> left;
-        Node<E> right;
-        Node<E> parent;
-
-        public Node(E element, Node<E> parent) {
-            this.element = element;
-            this.parent = parent;
-        }
-
-        @Override
-        public String toString() {
-            return element + "";
-        }
-
-        public boolean hasChildren() {
-          return  this.left != null && this.right != null;
-        }
-    }
 
 
 }
