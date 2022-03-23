@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/tree/CheckCompletenessOfBinaryTree_958.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/file/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/BinaryTreeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/BinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/InorderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/LevelOrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +44,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._06_avlTree" />
       <recent name="ca.bytetube._05_binaryTree.file" />
       <recent name="ca.bytetube.stack" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_04_queue" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/stack" />
@@ -63,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.BinaryTree" />
       <module name="ds_algo_06" />
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstInsertNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.list.FindFirstInsertNode" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._06_avlTree.Main" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode.list.*" />
+          <option name="PATTERN" value="ca.bytetube._06_avlTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.TreeTraversal" />
-        <item itemvalue="Application.FindFirstInsertNode" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +170,9 @@
       <workItem from="1646782736681" duration="4706000" />
       <workItem from="1647292443702" duration="11619000" />
       <workItem from="1647389110501" duration="7239000" />
-      <workItem from="1647891670484" duration="7846000" />
+      <workItem from="1647891670484" duration="7942000" />
+      <workItem from="1647978930401" duration="382000" />
+      <workItem from="1647991588915" duration="5535000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -219,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647397569642</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree">
+      <created>1647916368851</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647916368851</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +265,8 @@
     <MESSAGE value="1.added TreeTraversal" />
     <MESSAGE value="1.added post and level Tree Traversal&#10;2.added bst add method" />
     <MESSAGE value="1.added predecessor and successor&#10;2.added remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added predecessor and successor&#10;2.added remove" />
+    <MESSAGE value="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
