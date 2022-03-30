@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/file/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/printer/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/tree/IsBanlanced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +166,10 @@
       <workItem from="1647389110501" duration="7239000" />
       <workItem from="1647891670484" duration="7942000" />
       <workItem from="1647978930401" duration="382000" />
-      <workItem from="1647991588915" duration="5535000" />
+      <workItem from="1647991588915" duration="5683000" />
+      <workItem from="1648494218764" duration="3145000" />
+      <workItem from="1648576522592" duration="1957000" />
+      <workItem from="1648592517155" duration="9121000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -237,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647916368851</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.added avlTree">
+      <created>1648003084262</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648003084262</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +270,8 @@
     <MESSAGE value="1.added post and level Tree Traversal&#10;2.added bst add method" />
     <MESSAGE value="1.added predecessor and successor&#10;2.added remove" />
     <MESSAGE value="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree" />
+    <MESSAGE value="1.added avlTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added avlTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -54,7 +54,7 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
         afterAdd(newNode);
     }
 
-
+    public void afterRemove(Node<E> node){}
 
     /**
      * remove elements
@@ -89,17 +89,21 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
             }else {
                 node.parent.right = replacement;
             }
+
+            afterRemove(node);
         }
 
         //删除degree = 0
         else if (node.parent == null) {
             root = null;
+            afterRemove(node);
         }else {
             if (node == node.parent.left) {
                 node.parent.left = null;
             }else {
                 node.parent.right = null;
             }
+            afterRemove(node);
         }
 
 
