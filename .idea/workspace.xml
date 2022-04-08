@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/AbstractHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/BinaryHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/file/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/printer/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/BinaryHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._07_heap" />
       <recent name="ca.bytetube._06_avlTree" />
       <recent name="ca.bytetube._05_binaryTree.file" />
       <recent name="ca.bytetube.stack" />
@@ -73,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Person">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.BinaryTree" />
       <module name="ds_algo_06" />
@@ -113,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_hash.Main" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._05_binaryTree.*" />
+          <option name="PATTERN" value="ca.bytetube._08_hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.Person" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_hash.Person" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._05_binaryTree.*" />
+          <option name="PATTERN" value="ca.bytetube._08_hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Person" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +173,8 @@
       <workItem from="1648576522592" duration="1957000" />
       <workItem from="1648592517155" duration="9246000" />
       <workItem from="1648681123723" duration="1187000" />
-      <workItem from="1649105863111" duration="7542000" />
+      <workItem from="1649105863111" duration="7573000" />
+      <workItem from="1649374210960" duration="6720000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -257,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648606677989</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1.added heap">
+      <created>1649126482273</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1649126482273</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +291,8 @@
     <MESSAGE value="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree" />
     <MESSAGE value="1.added avlTree" />
     <MESSAGE value="1.completed avl tree&#10;2.added isB" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.completed avl tree&#10;2.added isB" />
+    <MESSAGE value="1.added heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

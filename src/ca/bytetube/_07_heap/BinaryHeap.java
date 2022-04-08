@@ -7,17 +7,39 @@ import java.util.Comparator;
 
 public class BinaryHeap<E> extends AbstractHeap<E> implements BinaryTreeInfo {
 
-    private E[] elements = (E[]) new Object[DEFAULT_CAPACITY];
+    private E[] elements;
 
     private static final int DEFAULT_CAPACITY = 15;
 
 
     public BinaryHeap(Comparator<E> comparator, E[] elements) {
-//        super(comparator);
-//        this.elements = elements;
+        super(comparator);
+        if (elements == null || elements.length == 0)  this.elements = (E[]) new Object[DEFAULT_CAPACITY];
+        else {
+            size = elements.length;
+            int capacity = Math.max(DEFAULT_CAPACITY,elements.length);
+            this.elements = (E[]) new Object[capacity];
+        }
+        for (int i = 0; i < size; i++) {
+            this.elements[i] = elements[i];
+        }
+
+        heapify();
     }
 
-    public BinaryHeap() { }
+    public BinaryHeap() {
+        this(null,null);
+    }
+
+    public BinaryHeap(E[] elements) {
+      this(null,elements);
+
+    }
+
+    public BinaryHeap(Comparator<E> comparator) {
+        this(comparator,null);
+
+    }
 
     @Override
     public void clear() {
@@ -61,6 +83,14 @@ public class BinaryHeap<E> extends AbstractHeap<E> implements BinaryTreeInfo {
         siftDown(0);
 
         return root;
+    }
+
+    //批量建堆
+    private void heapify(){
+        //b->t siftdown
+        for (int i = (size >> 1) - 1; i >= 0 ; i--) {
+            siftDown(i);
+        }
     }
 
 
