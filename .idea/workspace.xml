@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/BinaryHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/BinaryHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Person.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Person">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.BinaryTree" />
       <module name="ds_algo_06" />
@@ -136,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.BinaryTree" />
       </list>
@@ -174,7 +172,10 @@
       <workItem from="1648592517155" duration="9246000" />
       <workItem from="1648681123723" duration="1187000" />
       <workItem from="1649105863111" duration="7573000" />
-      <workItem from="1649374210960" duration="6720000" />
+      <workItem from="1649374210960" duration="6872000" />
+      <workItem from="1649709655273" duration="40000" />
+      <workItem from="1649709700904" duration="1962000" />
+      <workItem from="1649720810853" duration="7498000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -260,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649126482273</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.added hash">
+      <created>1649385139424</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649385139424</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +300,8 @@
     <MESSAGE value="1.added avlTree" />
     <MESSAGE value="1.completed avl tree&#10;2.added isB" />
     <MESSAGE value="1.added heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added heap" />
+    <MESSAGE value="1.added hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added hash" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,6 +340,11 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree/BinaryTree.java</url>
           <line>256</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
