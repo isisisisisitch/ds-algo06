@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_08_hash/Person.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._05_binaryTree.BinaryTree" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._05_binaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._06_avlTree.Main" />
       <module name="ds_algo_06" />
@@ -119,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_graph.Main" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._09_graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_hash.Person" />
       <module name="ds_algo_06" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +175,9 @@
       <workItem from="1649374210960" duration="6872000" />
       <workItem from="1649709655273" duration="40000" />
       <workItem from="1649709700904" duration="1962000" />
-      <workItem from="1649720810853" duration="7498000" />
+      <workItem from="1649720810853" duration="7839000" />
+      <workItem from="1650308160923" duration="23000" />
+      <workItem from="1650324775109" duration="6292000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -268,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649385139424</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1.added equals&#10;2.added topK">
+      <created>1649731598033</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1649731598033</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +310,8 @@
     <MESSAGE value="1.completed avl tree&#10;2.added isB" />
     <MESSAGE value="1.added heap" />
     <MESSAGE value="1.added hash" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added hash" />
+    <MESSAGE value="1.added equals&#10;2.added topK" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added equals&#10;2.added topK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
