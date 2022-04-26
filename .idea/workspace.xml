@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
@@ -36,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_07_heap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -47,11 +48,11 @@
       <recent name="ca.bytetube.stack" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_heap" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_04_queue" />
-      <recent name="$PROJECT_DIR$/src/ca/bytetube/stack" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -178,7 +179,9 @@
       <workItem from="1649720810853" duration="7839000" />
       <workItem from="1650308160923" duration="23000" />
       <workItem from="1650324775109" duration="6350000" />
-      <workItem from="1650579303449" duration="7394000" />
+      <workItem from="1650579303449" duration="7510000" />
+      <workItem from="1650915128725" duration="562000" />
+      <workItem from="1650918901169" duration="5629000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -285,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650334862959</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1.added bfs &amp; dfs">
+      <created>1650594214829</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650594214829</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +330,8 @@
     <MESSAGE value="1.added hash" />
     <MESSAGE value="1.added equals&#10;2.added topK" />
     <MESSAGE value="1.added graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added graph" />
+    <MESSAGE value="1.added bfs &amp; dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added bfs &amp; dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -367,7 +378,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
-          <line>23</line>
+          <line>26</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

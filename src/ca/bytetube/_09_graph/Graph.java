@@ -20,5 +20,13 @@ public interface Graph<V, E> {
 
     void dfs(V begin);
 
+    void bfs(V begin, VertexVisitor<V> visitor);
+
+    void dfs(V begin, VertexVisitor<V> visitor);
+
+    public interface VertexVisitor<V> {
+        public boolean visit(V v);
+    }
+
 
 }

@@ -1,6 +1,8 @@
 package ca.bytetube._09_graph;
 
+import java.util.Date;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Main {
@@ -15,7 +17,8 @@ public class Main {
 //        System.out.println(set);
 //        test();
 //        testBFS();
-          testDFS();
+          //testDFS();
+        testToPo();
     }
 
 
@@ -27,9 +30,18 @@ public class Main {
 
     public static void testBFS() {
         ListGraph<Object, Object> graph = (ListGraph) getGraph();
-        graph.bfs("V2");
-    }
+        graph.bfs("V2",new Graph.VertexVisitor(){
 
+            @Override
+            public boolean visit(Object o) {
+                String res = "";
+                res += o.toString()+"-->";
+
+                System.out.print(res);
+                return o.equals("V0");
+            }
+        });
+    }
     public static void test() {
         ListGraph<Object, Object> graph = (ListGraph) getGraph();
         //graph.printGraph();
@@ -48,5 +60,25 @@ public class Main {
         graph.addEdge("V2", "V0", 2);
         graph.addEdge("V3", "V4", 1);
         return graph;
+    }
+
+    public static void testToPo(){
+        ListGraph<Object, Integer> graph = directGraph(Data.TOPO);
+        List<Object> list = graph.topologicalSort();
+        for (Object o : list) {
+            System.out.print(o.toString()+" ");
+        }
+       // graph.printGraph();
+    }
+
+
+    public static ListGraph<Object,Integer> directGraph(Object[][] data){
+        ListGraph<Object,Integer> graph = new ListGraph<>();
+        for (Object[] edge : data) {
+           graph.addEdge(edge[0],edge[1]);
+        }
+
+        return graph;
+
     }
 }

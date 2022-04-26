@@ -1,9 +1,9 @@
 package ca.bytetube._09_graph;
 
-
 import java.util.*;
 
 public class ListGraph<V, E> implements Graph<V, E> {
+
     private Map<V, Vertex<V, E>> vertices = new HashMap<>();
 
     private Set<Edge<V, E>> edges = new HashSet<>();
@@ -141,10 +141,10 @@ public class ListGraph<V, E> implements Graph<V, E> {
      * 思路：
      * 1.先将起点（begin）入栈并访问，然后用set将已经访问过的顶点记录，
      * 2.循环往复的做：
-         *弹出栈顶vertex，再从当前顶点中取出一条outEdge，将这条边的from,to依次压入栈中
-         * 3.访问终点to
-         * 4.将终点to加入到set中
-         * 5.加入break（不去访问outEdge中的其他边，而是一路访问剩余的顶点）
+     * 弹出栈顶vertex，再从当前顶点中取出一条outEdge，将这条边的from,to依次压入栈中
+     * 3.访问终点to
+     * 4.将终点to加入到set中
+     * 5.加入break（不去访问outEdge中的其他边，而是一路访问剩余的顶点）
      */
 
     @Override
@@ -175,6 +175,8 @@ public class ListGraph<V, E> implements Graph<V, E> {
     }
 
 
+
+
     public void dfsByRecursion(V begin) {
         Vertex<V, E> beginVertex = vertices.get(begin);
         if (beginVertex == null) return;
@@ -194,20 +196,127 @@ public class ListGraph<V, E> implements Graph<V, E> {
     }
 
 
-    public void printGraph() {
-        System.out.println("[vertices]----------------------");
-        vertices.forEach((V v, Vertex<V, E> vertex) -> {
-            System.out.println(v);
-            System.out.println("in---------------------");
-            System.out.println(vertex.inDegrees);
-            System.out.println("out---------------------");
-            System.out.println(vertex.outDegrees);
+    @Override
+    public void bfs(V begin, VertexVisitor<V> visitor) {
+
+        Vertex<V, E> beginVertex = vertices.get(begin);
+        if (beginVertex == null) return;
+        Queue<Vertex<V, E>> queue = new LinkedList<>();
+        Set<Vertex<V, E>> visitedVerticesSet = new HashSet<>();//用于记录已经访问过的顶点
+        queue.offer(beginVertex);
+        visitedVerticesSet.add(beginVertex);
+        while (!queue.isEmpty()) {
+            Vertex<V, E> poll = queue.poll();
+            if(visitor.visit(poll.value)) return;
+//            System.out.println(poll.value);
+            for (Edge<V, E> edge : poll.outDegrees) {
+                if (visitedVerticesSet.contains(edge.to)) continue;
+                queue.offer(edge.to);
+                visitedVerticesSet.add(edge.to);
+            }
+        }
+
+    }
+
+    @Override
+    public void dfs(V begin, VertexVisitor<V> visitor) {
+        Vertex<V, E> beginVertex = vertices.get(begin);
+        if (beginVertex == null) return;
+        Stack<Vertex<V, E>> stack = new Stack<>();
+        Set<Vertex<V, E>> visitedVerticesSet = new HashSet<>();//用于记录已经访问过的顶点
+        // 1.先将起点（begin）入栈并访问，然后用set将已经访问过的顶点记录，
+        stack.push(beginVertex);
+        if(visitor.visit(beginVertex.value)) return;
+       // System.out.println(beginVertex.value);
+        visitedVerticesSet.add(beginVertex);
+        //2.循环往复的做：弹出栈顶vertex，再从当前顶点中取出一条outEdge，将这条边的from,to依次压入栈中
+        while (!stack.isEmpty()) {
+            Vertex<V, E> vertex = stack.pop();
+            for (Edge<V, E> edge : vertex.outDegrees) {
+                if (visitedVerticesSet.contains(edge.to)) continue;
+                stack.push(edge.from);
+                stack.push(edge.to);
+                //3.访问终点to
+                if(visitor.visit(edge.to.value)) return;
+               // System.out.println(edge.to.value);
+                //4.将终点to加入到set中
+                visitedVerticesSet.add(edge.to);
+                break;
+            }
+        }
+    }
+
+    /**
+     *思路：
+     * 准备工作：
+     * 1.准备一个list（用来装排序后结果）
+     * 2.准备一个queue（cache）
+     * 3.准备一张map（用来记录顶点和其入度信息）
+     *
+     * 具体的步骤：
+     * 1.将图中inDegree为0的顶点放入queue中，将inDegree不为0的顶点的信息写入map中
+     * 2.将queue的队头顶点出队，放入list中，并且更新改顶点的outDegree所对应的顶点的inDegree信息
+     * 3.观察map中更新后的顶点的信息，看是否有inDegree为0的顶点，如果有则将其入队queue
+     * 4.循环往复2，3的操作，直到queue为空
+     */
+    public List<V> topologicalSort(){
+        List<V> list = new ArrayList<>();
+        Queue<Vertex> queue = new LinkedList<>();
+        Map<Vertex<V,E>,Integer> ins = new HashMap<>();
+        //1.将图中inDegree为0的顶点放入queue中，将inDegree不为0的顶点的信息写入map中
+//        for (Map.Entry<V, Vertex<V, E>> entry : vertices.entrySet()) {
+//            int in = entry.getValue().inDegrees.size();
+//            if (in == 0) {
+//                queue.offer(entry.getValue());
+//            }else {
+//                ins.put(entry.getValue(),in);
+//            }
+//        }
+        //lambda
+        vertices.forEach((V v, Vertex<V, E> vertex)->{
+            int in = vertex.inDegrees.size();
+            if (in == 0) {
+                queue.offer(vertex);
+            }else {
+                ins.put(vertex,in);
+            }
+
         });
 
-//        System.out.println("[edges]----------------------");
-//        edges.forEach((Edge<V, E> edge) -> {
-//            System.out.println(edge);
+        // 4.循环往复2，3的操作，直到queue为空
+        while (!queue.isEmpty()){
+            //2.将queue的队头顶点出队，放入list中，并且更新改顶点的outDegree所对应的顶点的inDegree信息
+            Vertex<V,E> vertex = queue.poll();
+            list.add(vertex.value);
+            for (Edge<V,E> edge : vertex.outDegrees) {
+                Integer toIn = ins.get(edge.to) - 1;
+                //3.观察map中更新后的顶点的信息，看是否有inDegree为0的顶点，如果有则将其入队queue
+                if (toIn == 0) {
+                    queue.offer(edge.to);
+                }
+                ins.put(edge.to,toIn);
+            }
+        }
+
+
+        return list;
+    }
+
+
+    public void printGraph() {
+//        System.out.println("[vertices]----------------------");
+//        vertices.forEach((V v, Vertex<V, E> vertex) -> {
+//            System.out.println(v);
+//            System.out.println("in---------------------");
+//            System.out.println(vertex.inDegrees);
+//            System.out.println("out---------------------");
+//            System.out.println(vertex.outDegrees);
 //        });
+
+        System.out.println("[edges]----------------------");
+        edges.forEach((Edge<V, E> edge) -> {
+            System.out.println(edge);
+        });
     }
 
     private static class Vertex<V, E> {
