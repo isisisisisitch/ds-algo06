@@ -106,5 +106,18 @@ public class Fib {
         return second;
     }
 
+    public int fib7(int n) {
+
+        return fib(n,0,1);
+
+    }
+
+    private int fib(int n, int first, int second) {
+        if (n <= 1) return second;
+
+        return fib(n-1,second,first + second);
+
+    }
+
 
 }

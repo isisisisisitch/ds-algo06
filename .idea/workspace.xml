@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="1.added topoSort">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/NumOfCows.java" afterDir="false" />
+    <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/PrintAllSubSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/RecursiveToNonRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/TailCall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/Fib.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,39 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumOfCows">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._07_heap.Main" />
+  <component name="RunManager" selected="Application.TailCall">
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.Hanoi" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._07_heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_hash.Main" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._08_hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_graph.Main" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._09_graph.*" />
+          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +95,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._08_hash.Person" />
+    <configuration name="PrintAllSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.PrintAllSubSequence" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._08_hash.*" />
+          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveToNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.RecursiveToNonRecursive" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TailCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.TailCall" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TailCall" />
+        <item itemvalue="Application.RecursiveToNonRecursive" />
+        <item itemvalue="Application.PrintAllSubSequence" />
+        <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.NumOfCows" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,8 @@
       <workItem from="1650915128725" duration="562000" />
       <workItem from="1650918901169" duration="6565000" />
       <workItem from="1651092737516" duration="13000" />
-      <workItem from="1651537035462" duration="5476000" />
+      <workItem from="1651537035462" duration="5634000" />
+      <workItem from="1651620530809" duration="6850000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -303,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650940010173</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1.added recursion fib model">
+      <created>1651545195203</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651545195203</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +350,8 @@
     <MESSAGE value="1.added graph" />
     <MESSAGE value="1.added bfs &amp; dfs" />
     <MESSAGE value="1.added topoSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added topoSort" />
+    <MESSAGE value="1.added recursion fib model" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added recursion fib model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
