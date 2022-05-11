@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_11_backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/ChangeCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/LowLexicographicalOrderStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Pirates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,13 +68,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueens">
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.Hanoi" />
+  <component name="RunManager" selected="Application.LowLexicographicalOrderStr">
+    <configuration name="ChangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.ChangeCoins" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.Knapsack" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LowLexicographicalOrderStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.LowLexicographicalOrderStr" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,38 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.PrintAllSubSequence" />
+    <configuration name="Pirates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.Pirates" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursiveToNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.RecursiveToNonRecursive" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TailCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.TailCall" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LowLexicographicalOrderStr" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.ChangeCoins" />
+        <item itemvalue="Application.Pirates" />
         <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.TailCall" />
-        <item itemvalue="Application.RecursiveToNonRecursive" />
-        <item itemvalue="Application.PrintAllSubSequence" />
-        <item itemvalue="Application.Hanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +187,7 @@
       <workItem from="1651537035462" duration="5634000" />
       <workItem from="1651620530809" duration="6971000" />
       <workItem from="1652133204583" duration="4600000" />
+      <workItem from="1652226095478" duration="6254000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -317,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651630701768</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="1.added backtracking">
+      <created>1652226128454</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652226128454</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +368,8 @@
     <MESSAGE value="1.added topoSort" />
     <MESSAGE value="1.added recursion fib model" />
     <MESSAGE value="1.added recursion hanoi model&#10;2.added tail recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added recursion hanoi model&#10;2.added tail recursion" />
+    <MESSAGE value="1.added backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
