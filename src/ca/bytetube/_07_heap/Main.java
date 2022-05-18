@@ -1,8 +1,6 @@
 package ca.bytetube._07_heap;
 
-import ca.bytetube._05_binaryTree.PersonComparator;
 import ca.bytetube._07_heap.printer.BinaryTrees;
-import com.sun.source.tree.BinaryTree;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -47,9 +45,29 @@ public class Main {
 
 
     }
+    //前k大的数
+    public static void topK(int[] data, int k){
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1 - o2;
+            }
+        });
+
+        for (int i = 0; i < data.length; i++) {
+            if (priorityQueue.size() < k)  priorityQueue.add(data[i]);
+            else if (data[i] < priorityQueue.peek()) {
+                priorityQueue.poll();
+                priorityQueue.add(data[i]);
+            }
+        }
+
+
+
+    }
 
     //前k小的数
-    public static void topK(int[] data, int k){
+    public static void topKLast(int[] data, int k){
         BinaryHeap<Integer> binaryHeap = new BinaryHeap<>();
         for (int i = 0; i < data.length; i++) {
            // System.out.println(binaryHeap.size());
@@ -85,7 +103,7 @@ public class Main {
         int[] randArr = new int[]{ -318, 786, 163, -24, -511, -132, 172, 303, 474, 87, 282, 135,
                 732, -500, 183 };
         printArray(randArr);
-        topK(randArr,4);
+        topKLast(randArr,4);
 
 
     }
