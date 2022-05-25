@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/IPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/LessMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/MeetingArrangement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_divide/GetMaxFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_divide/MaximumSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_heap/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IPO">
-    <configuration name="ChangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.ChangeCoins" />
+  <component name="RunManager" selected="Application.GetMaxFromArray">
+    <configuration name="GetMaxFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_divide.GetMaxFromArray" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
+          <option name="PATTERN" value="ca.bytetube._13_divide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetMaxFromArray" />
         <item itemvalue="Application.IPO" />
         <item itemvalue="Application.LessMoney" />
         <item itemvalue="Application.LowLexicographicalOrderStr" />
         <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.ChangeCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +185,8 @@
       <workItem from="1651620530809" duration="6971000" />
       <workItem from="1652133204583" duration="4600000" />
       <workItem from="1652226095478" duration="6296000" />
-      <workItem from="1652827214041" duration="7008000" />
+      <workItem from="1652827214041" duration="7186000" />
+      <workItem from="1653430787095" duration="5248000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -336,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652235705471</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1.added greedy interview questions">
+      <created>1652840857602</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652840857602</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +383,8 @@
     <MESSAGE value="1.added recursion hanoi model&#10;2.added tail recursion" />
     <MESSAGE value="1.added backtracking" />
     <MESSAGE value="1.added greedy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added greedy" />
+    <MESSAGE value="1.added greedy interview questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added greedy interview questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
