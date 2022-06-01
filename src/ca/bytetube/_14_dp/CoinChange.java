@@ -12,6 +12,43 @@ public class CoinChange {
         System.out.println(coins);
     }
 
+
+    public int coinChange(int[] coins, int amount) {// 1,5,20,25  41 dp[28] {dp[28-1],dp[28-5],dp[28-20],dp[28-25]}
+
+        if (amount < 1) return 0;
+
+        int[] dp = new int[amount + 1];//dp[n]的意义：表示凑够n分零钱时所需要的硬币数
+
+        for (int i = 1; i <= amount; i++) {//i = 28 dp[1~27]我们都知道
+            int min = Integer.MAX_VALUE;
+
+            for (int coin : coins) {
+                /**
+                 * 条件 i < coin
+                 * 当面值只有[5,20,25]时，
+                 * 对于amount = 1，2，3来说，压根找不了硬币 所以需要想办法把dp[i] = -1
+                 *
+                 * 对于amount=6来说，dp[1] = -1, min = -1 dp[6] = min + 1 = -1 + 1 = 0
+                 *
+                 */
+                if (i < coin || dp[i - coin] == -1) continue;
+                min = Math.min(dp[i - coin], min);
+            }
+
+            if (min == Integer.MAX_VALUE) dp[i] = -1;
+
+
+                //普通情况
+            else dp[i] = min + 1;
+
+            System.out.println(dp[i]);
+        }
+
+
+        return dp[amount];
+
+    }
+
     /**
      * 由coinChange2记忆画搜索知，要计算较大的amount所对应的硬币数，需要先计算较小的amount所对应的硬币数
      * iteration：直接先计算较小的amount所对应的硬币数，再依次计算较大的amount所对应的硬币数

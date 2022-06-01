@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_divide/SmallSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/MinPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/CoinChange.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.MinPathSum">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.CoinChange" />
       <module name="ds_algo_06" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LessMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.LessMoney" />
+    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.MinPathSum" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
+          <option name="PATTERN" value="ca.bytetube._14_dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinPathSum" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.SmallSum" />
         <item itemvalue="Application.GetMaxFromArray" />
         <item itemvalue="Application.IPO" />
-        <item itemvalue="Application.LessMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,8 @@
       <workItem from="1652827214041" duration="7186000" />
       <workItem from="1653430787095" duration="5290000" />
       <workItem from="1653588260724" duration="129000" />
-      <workItem from="1653609073659" duration="5893000" />
+      <workItem from="1653609073659" duration="5956000" />
+      <workItem from="1654035889594" duration="6739000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -351,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653446251353</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1.added dp">
+      <created>1653618687276</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653618687276</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +402,8 @@
     <MESSAGE value="1.added greedy" />
     <MESSAGE value="1.added greedy interview questions" />
     <MESSAGE value="1.added divide" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added divide" />
+    <MESSAGE value="1.added dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
