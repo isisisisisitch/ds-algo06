@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/LongestCommonSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,9 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonSubsequence">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.CoinChange" />
+  <component name="RunManager" selected="Application.Knapsack">
+    <configuration name="FindAimInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.FindAimInArray" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAimInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.FindAimInArray" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.Knapsack" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.MinPathSum" />
+    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.LongestCommonSubstring" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.LongestCommonSubsequence" />
+        <item itemvalue="Application.LongestCommonSubstring" />
         <item itemvalue="Application.FindAimInArray" />
         <item itemvalue="Application.PrintAllSubSequence" />
-        <item itemvalue="Application.MinPathSum" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,8 @@
       <workItem from="1654213507907" duration="6528000" />
       <workItem from="1654552180386" duration="52000" />
       <workItem from="1654614030459" duration="29000" />
-      <workItem from="1654644268969" duration="7793000" />
+      <workItem from="1654644268969" duration="7897000" />
+      <workItem from="1654813150183" duration="7300000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654223074032</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="1.added dp interview question3">
+      <created>1654653917133</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654653917133</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.update category&#10;2.added stack and queue interview questions" />
     <MESSAGE value="added array and list interview questions" />
     <MESSAGE value="added array and list interview questions_02" />
     <MESSAGE value="added list and queue interview questions" />
@@ -423,7 +430,8 @@
     <MESSAGE value="1.added dp" />
     <MESSAGE value="1.added dp interview question1" />
     <MESSAGE value="1.added dp interview question2" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added dp interview question2" />
+    <MESSAGE value="1.added dp interview question3" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added dp interview question3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -477,6 +485,11 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java</url>
           <line>280</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_14_dp/LongestCommonSubsequence.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
