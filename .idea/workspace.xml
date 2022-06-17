@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_15_sequence/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_15_sequence/KMP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,13 +66,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Knapsack">
-    <configuration name="FindAimInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.FindAimInArray" />
+  <component name="RunManager" selected="Application.KMP">
+    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.BruteForce" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._14_dp.*" />
+          <option name="PATTERN" value="ca.bytetube._15_sequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.KMP" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._15_sequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.PrintAllSubSequence" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMP" />
+        <item itemvalue="Application.BruteForce" />
         <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.LongestCommonSubsequence" />
         <item itemvalue="Application.LongestCommonSubstring" />
-        <item itemvalue="Application.FindAimInArray" />
-        <item itemvalue="Application.PrintAllSubSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,8 @@
       <workItem from="1654552180386" duration="52000" />
       <workItem from="1654614030459" duration="29000" />
       <workItem from="1654644268969" duration="7897000" />
-      <workItem from="1654813150183" duration="7300000" />
+      <workItem from="1654813150183" duration="7330000" />
+      <workItem from="1655422128680" duration="4337000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -386,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654653917133</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="1.added dp interview question4">
+      <created>1654827265732</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654827265732</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added array and list interview questions" />
     <MESSAGE value="added array and list interview questions_02" />
     <MESSAGE value="added list and queue interview questions" />
     <MESSAGE value="1.added TreeTraversal" />
@@ -431,7 +438,8 @@
     <MESSAGE value="1.added dp interview question1" />
     <MESSAGE value="1.added dp interview question2" />
     <MESSAGE value="1.added dp interview question3" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added dp interview question3" />
+    <MESSAGE value="1.added dp interview question4" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added dp interview question4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
