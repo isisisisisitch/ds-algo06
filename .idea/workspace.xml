@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_15_sequence/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_15_sequence/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_palindrome/LongestPalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KMP">
+  <component name="RunManager" selected="JUnit.ca.bytetube._16_palindrome in ds_algo_06">
     <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.BruteForce" />
       <module name="ds_algo_06" />
@@ -106,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.LongestCommonSubsequence" />
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_palindrome.LongestPalindromicSubstring" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._14_dp.*" />
+          <option name="PATTERN" value="ca.bytetube._16_palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,26 +118,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.LongestCommonSubstring" />
+    <configuration name="ca.bytetube._16_palindrome in ds_algo_06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._14_dp.*" />
+          <option name="PATTERN" value="ca.bytetube._16_palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube._16_palindrome" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ca.bytetube._16_palindrome in ds_algo_06" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.KMP" />
         <item itemvalue="Application.BruteForce" />
         <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.LongestCommonSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +196,9 @@
       <workItem from="1654614030459" duration="29000" />
       <workItem from="1654644268969" duration="7897000" />
       <workItem from="1654813150183" duration="7330000" />
-      <workItem from="1655422128680" duration="4337000" />
+      <workItem from="1655422128680" duration="4502000" />
+      <workItem from="1655761523974" duration="11000" />
+      <workItem from="1655854598631" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -394,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654827265732</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1.added KMP">
+      <created>1655432938967</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655432938967</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added array and list interview questions_02" />
     <MESSAGE value="added list and queue interview questions" />
     <MESSAGE value="1.added TreeTraversal" />
     <MESSAGE value="1.added post and level Tree Traversal&#10;2.added bst add method" />
@@ -439,7 +447,8 @@
     <MESSAGE value="1.added dp interview question2" />
     <MESSAGE value="1.added dp interview question3" />
     <MESSAGE value="1.added dp interview question4" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added dp interview question4" />
+    <MESSAGE value="1.added KMP" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added KMP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
