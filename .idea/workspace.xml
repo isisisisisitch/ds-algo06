@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/TestSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/BubbleSort1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/BubbleSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/BubbleSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/utils/Asserts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/utils/Integers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/utils/Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/InsertionSort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/InsertionSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/InsertionSort3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,22 +68,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="BubbleSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.BubbleSort1" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.BubbleSort2" />
+  <component name="RunManager" selected="Application.InsertionSort3">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.BinarySearch" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.SelectionSort" />
+    <configuration name="InsertionSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.InsertionSort1" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
@@ -127,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.TestSort" />
+    <configuration name="InsertionSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.InsertionSort2" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sort.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.InsertionSort3" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort3" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.InsertionSort2" />
+        <item itemvalue="Application.InsertionSort1" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.TestSort" />
-        <item itemvalue="Application.BubbleSort2" />
-        <item itemvalue="Application.BubbleSort1" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +203,11 @@
       <workItem from="1655854598631" duration="3357000" />
       <workItem from="1656019805406" duration="1750000" />
       <workItem from="1656376206074" duration="440000" />
-      <workItem from="1656459089324" duration="9751000" />
+      <workItem from="1656459089324" duration="9931000" />
+      <workItem from="1656517781356" duration="2641000" />
+      <workItem from="1656603883787" duration="525000" />
+      <workItem from="1657038361122" duration="28000" />
+      <workItem from="1657065319527" duration="5834000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -421,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655862774998</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1.added bubbleSort,selectionSort,heapSort">
+      <created>1656471856767</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1656471856767</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.added TreeTraversal" />
     <MESSAGE value="1.added post and level Tree Traversal&#10;2.added bst add method" />
     <MESSAGE value="1.added predecessor and successor&#10;2.added remove" />
     <MESSAGE value="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree" />
@@ -466,7 +470,8 @@
     <MESSAGE value="1.added dp interview question4" />
     <MESSAGE value="1.added KMP" />
     <MESSAGE value="1.added Palindrome(manacher)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added Palindrome(manacher)" />
+    <MESSAGE value="1.added bubbleSort,selectionSort,heapSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added bubbleSort,selectionSort,heapSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
