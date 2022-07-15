@@ -74,8 +74,8 @@ public abstract class Sort<T extends Comparable<T>> implements Comparable<Sort<T
     private String numberString(int number) {
         if (number < 10000) return "" + number;
 
-        if (number < 100000000) return fmt.format(number / 1000.0) + "thousand";
-        return fmt.format(number / 1000000000.0) + "billion";
+        if (number < 100000000) return fmt.format(number / 1000.0) + " thousand";
+        return fmt.format(number / 1000000000.0) + " billion";
     }
 
     private boolean isStable() {
@@ -83,16 +83,17 @@ public abstract class Sort<T extends Comparable<T>> implements Comparable<Sort<T
 //        if (this instanceof CountingSort) return true;
 //        if (this instanceof ShellSort) return false;
 //        if (this instanceof SelectionSort) return false;
-//        Student[] students = new Student[20];
-//        for (int i = 0; i < students.length; i++) {
-//            students[i] = new Student(i * 10, 10);
-//        }
-//        sort((T[]) students);
-//        for (int i = 1; i < students.length; i++) {
-//            int score = students[i].score;
-//            int prevScore = students[i - 1].score;
-//            if (score != prevScore + 10) return false;
-//        }
+
+        Student[] students = new Student[20];
+        for (int i = 0; i < students.length; i++) {
+            students[i] = new Student(i * 10, 10);
+        }
+        sort((T[]) students);
+        for (int i = 1; i < students.length; i++) {
+            int score = students[i].score;
+            int prevScore = students[i - 1].score;
+            if (score != prevScore + 10) return false;
+        }
         return true;
     }
 }

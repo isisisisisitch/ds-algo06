@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/FindMaxInversionOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/array/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/TestSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,39 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindMaxInversionOfArray">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.BinarySearch" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestSort">
     <configuration name="FindMaxInversionOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.FindMaxInversionOfArray" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.bytetube._00_leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.InsertionSort3" />
-      <module name="ds_algo_06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +109,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.ShellSort" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.TestSort" />
+      <module name="ds_algo_06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._17_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSort" />
+        <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.FindMaxInversionOfArray" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.InsertionSort3" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +211,9 @@
       <workItem from="1657065319527" duration="6054000" />
       <workItem from="1657232285906" duration="6624000" />
       <workItem from="1657322546530" duration="2108000" />
-      <workItem from="1657668970054" duration="7499000" />
+      <workItem from="1657668970054" duration="7524000" />
+      <workItem from="1657738119705" duration="807000" />
+      <workItem from="1657831251531" duration="8906000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -442,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657247344673</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="1.added quickSort">
+      <created>1657680639581</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1657680639581</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.refactored binary tree&#10;2.added tree height&#10;3.added isComplete tree" />
     <MESSAGE value="1.added avlTree" />
     <MESSAGE value="1.completed avl tree&#10;2.added isB" />
     <MESSAGE value="1.added heap" />
@@ -487,7 +497,8 @@
     <MESSAGE value="1.added bubbleSort,selectionSort,heapSort" />
     <MESSAGE value="1.added insertionSort" />
     <MESSAGE value="1.added mergeSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added mergeSort" />
+    <MESSAGE value="1.added quickSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added quickSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
