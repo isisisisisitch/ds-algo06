@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea37a40-e815-4443-bd40-cee4bacaf104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/cmp/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/uncmp/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/uncmp/CountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/TestSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_06/META-INF/ds_algo_06.kotlin_module" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,29 +23,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="24X5jGwnDpqvqaeTEdbgVSEL7LI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_17_sort" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ca.bytetube._17_sort.cmp" />
-      <recent name="ca.bytetube._14_dp" />
-      <recent name="ca.bytetube._07_heap" />
-      <recent name="ca.bytetube._06_avlTree" />
-      <recent name="ca.bytetube._05_binaryTree.file" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_17_sort" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
@@ -56,26 +50,21 @@
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_06_avlTree" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_05_binaryTree" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._17_sort.uncmp" />
+      <recent name="ca.bytetube._17_sort.cmp" />
+      <recent name="ca.bytetube._14_dp" />
+      <recent name="ca.bytetube._07_heap" />
+      <recent name="ca.bytetube._06_avlTree" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.TestSort">
-    <configuration name="FindMaxInversionOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode.array.FindMaxInversionOfArray" />
+  <component name="RunManager" selected="Application.BucketSort">
+    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.BruteForce" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode.array.*" />
+          <option name="PATTERN" value="ca.bytetube._15_sequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.MergeSort" />
+    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.uncmp.BucketSort" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sort.uncmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.cmp.QuickSort" />
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.uncmp.CountingSort" />
       <module name="ds_algo_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sort.cmp.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sort.uncmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,14 +126,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BucketSort" />
+        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.BruteForce" />
         <item itemvalue="Application.TestSort" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.FindMaxInversionOfArray" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -213,7 +203,7 @@
       <workItem from="1657322546530" duration="2108000" />
       <workItem from="1657668970054" duration="7524000" />
       <workItem from="1657738119705" duration="807000" />
-      <workItem from="1657831251531" duration="8906000" />
+      <workItem from="1657831251531" duration="14216000" />
     </task>
     <task id="LOCAL-00001" summary="1.Added Circular LinkedList &#10;2.Added stack">
       <created>1644982416861</created>
@@ -453,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657680639581</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="1.added shellSort">
+      <created>1657854950020</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1657854950020</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,16 +461,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.added avlTree" />
     <MESSAGE value="1.completed avl tree&#10;2.added isB" />
     <MESSAGE value="1.added heap" />
     <MESSAGE value="1.added hash" />
@@ -498,7 +492,8 @@
     <MESSAGE value="1.added insertionSort" />
     <MESSAGE value="1.added mergeSort" />
     <MESSAGE value="1.added quickSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.added quickSort" />
+    <MESSAGE value="1.added shellSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.added shellSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
